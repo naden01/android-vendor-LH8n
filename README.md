@@ -1,2 +1,3 @@
-# android-vendor-LH8n
-vendor tree
+# device_vendor_LH8n
+# device_vendor_LH8n
+# device_vendor_LH8n
