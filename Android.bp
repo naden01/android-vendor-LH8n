@@ -18,7 +18,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary//lib/libmedia_codeclist.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/libmedia_codeclist.so"],
 			shared_libs: [ ],
 		},
@@ -38,7 +38,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary//lib/libstagefright_aidl_bufferpool2.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/libstagefright_aidl_bufferpool2.so"],
 			shared_libs: [ ],
 		},
@@ -58,7 +58,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary//lib/libstagefright_bufferpool@2.0.1.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/libstagefright_bufferpool@2.0.1.so"],
 			shared_libs: [ ],
 		},
@@ -78,7 +78,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary//lib/libstagefright_codecbase.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/libstagefright_codecbase.so"],
 			shared_libs: [ ],
 		},
@@ -98,7 +98,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary//lib/libstagefright_framecapture_utils.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/libstagefright_framecapture_utils.so"],
 			shared_libs: [ ],
 		},
@@ -118,7 +118,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary//lib/libstagefright_surface_utils.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/libstagefright_surface_utils.so"],
 			shared_libs: [ ],
 		},
@@ -134,7 +134,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/vendor.pixelworks.hardware.display@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -150,7 +150,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/vendor.pixelworks.hardware.display@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -166,7 +166,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/vendor.pixelworks.hardware.display@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -182,7 +182,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/vendor.pixelworks.hardware.feature@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -198,7 +198,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary//lib64/vendor.pixelworks.hardware.feature@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -218,7 +218,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so"],
 			shared_libs: [ ],
 		},
@@ -239,7 +239,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/audio_common-aidl-cpp.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/audio_common-aidl-cpp.so"],
 			shared_libs: [ ],
 		},
@@ -260,7 +260,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/audioclient-types-aidl-cpp.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/audioclient-types-aidl-cpp.so"],
 			shared_libs: [ ],
 		},
@@ -281,7 +281,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/egl/libGLES_mali.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libGLES_mali.so"],
 			shared_libs: [ ],
 		},
@@ -303,7 +303,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/egl/libGLES_meow.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libGLES_meow.so"],
 			shared_libs: [ ],
 		},
@@ -325,7 +325,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/egl/libMEOW_data.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libMEOW_data.so"],
 			shared_libs: [ ],
 		},
@@ -347,7 +347,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/egl/libMEOW_gift.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libMEOW_gift.so"],
 			shared_libs: [ ],
 		},
@@ -369,7 +369,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/egl/libMEOW_qt.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libMEOW_qt.so"],
 			shared_libs: [ ],
 		},
@@ -391,7 +391,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/egl/libMEOW_trace.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/egl/libMEOW_trace.so"],
 			shared_libs: [ ],
 		},
@@ -413,7 +413,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/framework-permission-aidl-cpp.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/framework-permission-aidl-cpp.so"],
 			shared_libs: [ ],
 		},
@@ -434,7 +434,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -456,7 +456,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -478,7 +478,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -500,7 +500,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so"],
 			shared_libs: [ ],
 		},
@@ -522,7 +522,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -544,7 +544,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so"],
 			shared_libs: [ ],
 		},
@@ -566,7 +566,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -588,7 +588,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -610,7 +610,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/audio.bluetooth.default.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.bluetooth.default.so"],
 			shared_libs: [ ],
 		},
@@ -632,7 +632,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.default.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.primary.default.so"],
 			shared_libs: [ ],
 		},
@@ -654,7 +654,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.mt6833.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.primary.mt6833.so"],
 			shared_libs: [ ],
 		},
@@ -676,7 +676,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/hw/audio.r_submix.default.so"],
 			shared_libs: [ ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.r_submix.default.so"],
 			shared_libs: [ ],
 		},
@@ -694,11 +694,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/audio.r_submix.mt6833.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.r_submix.mt6833.so"],
 			shared_libs: [ ],
 		},
@@ -716,11 +716,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/audio.usb.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.usb.default.so"],
 			shared_libs: [ ],
 		},
@@ -738,11 +738,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/fingerprint.silead.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/fingerprint.silead.default.so"],
 			shared_libs: [ ],
 		},
@@ -760,11 +760,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/gps.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/gps.default.so"],
 			shared_libs: [ ],
 		},
@@ -782,11 +782,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/gralloc.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/gralloc.default.so"],
 			shared_libs: [ ],
 		},
@@ -804,11 +804,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/kmsetkey.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/kmsetkey.default.so"],
 			shared_libs: [ ],
 		},
@@ -826,11 +826,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/kmsetkey.trustonic.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/kmsetkey.trustonic.so"],
 			shared_libs: [ ],
 		},
@@ -848,11 +848,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/libMcGatekeeper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/libMcGatekeeper.so"],
 			shared_libs: [ ],
 		},
@@ -870,11 +870,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/libSoftGatekeeper.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/libSoftGatekeeper.so"],
 			shared_libs: [ ],
 		},
@@ -892,11 +892,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/lights.mt6833.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/lights.mt6833.so"],
 			shared_libs: [ ],
 		},
@@ -914,11 +914,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/power.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/power.default.so"],
 			shared_libs: [ ],
 		},
@@ -936,11 +936,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/sound_trigger.primary.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/sound_trigger.primary.default.so"],
 			shared_libs: [ ],
 		},
@@ -958,11 +958,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so"],
 			shared_libs: [ ],
 		},
@@ -980,11 +980,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1002,11 +1002,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1024,11 +1024,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1046,11 +1046,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1068,11 +1068,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1090,11 +1090,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1112,11 +1112,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1134,11 +1134,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1156,11 +1156,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1178,11 +1178,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vibrator.default.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vibrator.default.so"],
 			shared_libs: [ ],
 		},
@@ -1200,11 +1200,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vulkan.mali.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vulkan.mali.so"],
 			shared_libs: [ ],
 		},
@@ -1222,11 +1222,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_E2EHDR_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_E2EHDR_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -1243,11 +1243,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_E2EHDR_Video.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_E2EHDR_Video.so"],
 			shared_libs: [ ],
 		},
@@ -1264,11 +1264,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Face_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Face_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1285,11 +1285,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1306,11 +1306,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_HDR_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_HDR_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1327,11 +1327,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_HDR_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_HDR_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -1348,11 +1348,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_HDR_Video.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_HDR_Video.so"],
 			shared_libs: [ ],
 		},
@@ -1369,11 +1369,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_N3D_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_N3D_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1390,11 +1390,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_N3D_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_N3D_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -1411,11 +1411,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_N3D_Video.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_N3D_Video.so"],
 			shared_libs: [ ],
 		},
@@ -1432,11 +1432,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_P1_YUV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_P1_YUV.so"],
 			shared_libs: [ ],
 		},
@@ -1453,11 +1453,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1474,11 +1474,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
@@ -1495,11 +1495,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -1516,11 +1516,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Scene_Preview_4k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Scene_Preview_4k.so"],
 			shared_libs: [ ],
 		},
@@ -1537,11 +1537,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Scene_Preview_ZSD_Flash.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Scene_Preview_ZSD_Flash.so"],
 			shared_libs: [ ],
 		},
@@ -1558,11 +1558,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Video_1080.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Video_1080.so"],
 			shared_libs: [ ],
 		},
@@ -1579,11 +1579,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Video_1080_60.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Video_1080_60.so"],
 			shared_libs: [ ],
 		},
@@ -1600,11 +1600,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_fakeserialyuv_Video_4k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_fakeserialyuv_Video_4k.so"],
 			shared_libs: [ ],
 		},
@@ -1621,11 +1621,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_360HDR.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_360HDR.so"],
 			shared_libs: [ ],
 		},
@@ -1642,11 +1642,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_3rd_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_3rd_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1663,11 +1663,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_3rd_Capture_FD.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_3rd_Capture_FD.so"],
 			shared_libs: [ ],
 		},
@@ -1684,11 +1684,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_3rd_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_3rd_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -1705,11 +1705,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_3rd_Preview_FD.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_3rd_Preview_FD.so"],
 			shared_libs: [ ],
 		},
@@ -1726,11 +1726,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -1747,11 +1747,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Default_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Default_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -1768,11 +1768,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_FaceBeauty.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_FaceBeauty.so"],
 			shared_libs: [ ],
 		},
@@ -1789,11 +1789,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
@@ -1810,11 +1810,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1831,11 +1831,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
@@ -1852,11 +1852,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_MT_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_MT_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1873,11 +1873,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_MT_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_MT_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -1894,11 +1894,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
@@ -1915,11 +1915,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Portrait_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Portrait_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -1936,11 +1936,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Preview_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Preview_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -1957,11 +1957,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Resolution.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Resolution.so"],
 			shared_libs: [ ],
 		},
@@ -1978,11 +1978,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Resolution_zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Resolution_zoom.so"],
 			shared_libs: [ ],
 		},
@@ -1999,11 +1999,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -2020,11 +2020,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
@@ -2041,11 +2041,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -2062,11 +2062,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_SuperFlashLight_Screen.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_SuperFlashLight_Screen.so"],
 			shared_libs: [ ],
 		},
@@ -2083,11 +2083,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_SuperFlashLight_ScreenTorch.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_SuperFlashLight_ScreenTorch.so"],
 			shared_libs: [ ],
 		},
@@ -2104,11 +2104,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_SuperFlashLight_Torch.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_SuperFlashLight_Torch.so"],
 			shared_libs: [ ],
 		},
@@ -2125,11 +2125,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_SuperNight.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_SuperNight.so"],
 			shared_libs: [ ],
 		},
@@ -2146,11 +2146,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_1080.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_1080.so"],
 			shared_libs: [ ],
 		},
@@ -2167,11 +2167,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_1080_60fps.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_1080_60fps.so"],
 			shared_libs: [ ],
 		},
@@ -2188,11 +2188,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_1080_60fps_Zoo1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_1080_60fps_Zoo1.so"],
 			shared_libs: [ ],
 		},
@@ -2209,11 +2209,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_1080_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_1080_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -2230,11 +2230,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_2k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_2k.so"],
 			shared_libs: [ ],
 		},
@@ -2251,11 +2251,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_2k_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_2k_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -2272,11 +2272,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
@@ -2293,11 +2293,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_720_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_720_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -2314,11 +2314,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_EIS_1080.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_EIS_1080.so"],
 			shared_libs: [ ],
 		},
@@ -2335,11 +2335,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_hi1634qmipiraw_Video_EIS_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_hi1634qmipiraw_Video_EIS_720.so"],
 			shared_libs: [ ],
 		},
@@ -2356,11 +2356,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_360HDR.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_360HDR.so"],
 			shared_libs: [ ],
 		},
@@ -2377,11 +2377,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_3rd_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_3rd_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -2398,11 +2398,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_3rd_Capture_FD.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_3rd_Capture_FD.so"],
 			shared_libs: [ ],
 		},
@@ -2419,11 +2419,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_3rd_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_3rd_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -2440,11 +2440,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_3rd_Preview_FD.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_3rd_Preview_FD.so"],
 			shared_libs: [ ],
 		},
@@ -2461,11 +2461,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -2482,11 +2482,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_FaceBeauty.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_FaceBeauty.so"],
 			shared_libs: [ ],
 		},
@@ -2503,11 +2503,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
@@ -2524,11 +2524,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -2545,11 +2545,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
@@ -2566,11 +2566,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_MT_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_MT_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -2587,11 +2587,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_MT_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_MT_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -2608,11 +2608,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
@@ -2629,11 +2629,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Preview_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Preview_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -2650,11 +2650,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Resolution.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Resolution.so"],
 			shared_libs: [ ],
 		},
@@ -2671,11 +2671,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Resolution_zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Resolution_zoom.so"],
 			shared_libs: [ ],
 		},
@@ -2692,11 +2692,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -2713,11 +2713,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
@@ -2734,11 +2734,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -2755,11 +2755,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_SuperFlashLight.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_SuperFlashLight.so"],
 			shared_libs: [ ],
 		},
@@ -2776,11 +2776,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_SuperNight.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_SuperNight.so"],
 			shared_libs: [ ],
 		},
@@ -2797,11 +2797,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_1080.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_1080.so"],
 			shared_libs: [ ],
 		},
@@ -2818,11 +2818,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_1080_60fps.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_1080_60fps.so"],
 			shared_libs: [ ],
 		},
@@ -2839,11 +2839,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		:android_arm {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_1080_60fps_Zoo1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_1080_60fps_Zoo1.so"],
 			shared_libs: [ ],
 		},
@@ -2860,11 +2860,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_1080_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_1080_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -2881,11 +2881,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_2k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_2k.so"],
 			shared_libs: [ ],
 		},
@@ -2902,11 +2902,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_2k_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_2k_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -2923,11 +2923,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
@@ -2944,11 +2944,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_720_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_720_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -2965,11 +2965,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_EIS_1080.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_EIS_1080.so"],
 			shared_libs: [ ],
 		},
@@ -2986,11 +2986,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_EIS_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblchi1634qmipiraw_Video_EIS_720.so"],
 			shared_libs: [ ],
 		},
@@ -3007,11 +3007,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Capture_zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Capture_zoom.so"],
 			shared_libs: [ ],
 		},
@@ -3028,11 +3028,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_E2EHDR_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_E2EHDR_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -3049,11 +3049,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_E2EHDR_Video.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_E2EHDR_Video.so"],
 			shared_libs: [ ],
 		},
@@ -3070,11 +3070,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_FaceBeauty_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_FaceBeauty_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3091,11 +3091,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Face_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Face_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3112,11 +3112,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
@@ -3133,11 +3133,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3154,11 +3154,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_HDR_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_HDR_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3175,11 +3175,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_HDR_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_HDR_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -3196,11 +3196,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_HDR_Video.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_HDR_Video.so"],
 			shared_libs: [ ],
 		},
@@ -3217,11 +3217,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_N3D_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_N3D_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3238,11 +3238,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_N3D_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_N3D_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -3259,11 +3259,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_N3D_Video.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_N3D_Video.so"],
 			shared_libs: [ ],
 		},
@@ -3280,11 +3280,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_P1_YUV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_P1_YUV.so"],
 			shared_libs: [ ],
 		},
@@ -3301,11 +3301,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Resolution_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Resolution_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3322,11 +3322,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3343,11 +3343,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
@@ -3364,11 +3364,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -3385,11 +3385,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Scene_Preview_4k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Scene_Preview_4k.so"],
 			shared_libs: [ ],
 		},
@@ -3406,11 +3406,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Scene_Preview_ZSD_Flash.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Scene_Preview_ZSD_Flash.so"],
 			shared_libs: [ ],
 		},
@@ -3427,11 +3427,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Supernight_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Supernight_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3448,11 +3448,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Video_1080_60.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Video_1080_60.so"],
 			shared_libs: [ ],
 		},
@@ -3469,11 +3469,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Video_4k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Video_4k.so"],
 			shared_libs: [ ],
 		},
@@ -3490,11 +3490,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblcs5kjn1mipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pblcs5kjn1mipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
@@ -3511,11 +3511,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_360HDR.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_360HDR.so"],
 			shared_libs: [ ],
 		},
@@ -3532,11 +3532,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_3rd_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_3rd_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3553,11 +3553,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_3rd_Capture_FD.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_3rd_Capture_FD.so"],
 			shared_libs: [ ],
 		},
@@ -3574,11 +3574,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_3rd_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_3rd_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -3595,11 +3595,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_3rd_Preview_FD.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_3rd_Preview_FD.so"],
 			shared_libs: [ ],
 		},
@@ -3616,11 +3616,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -3637,11 +3637,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Default_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Default_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -3658,11 +3658,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_FaceBeauty.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_FaceBeauty.so"],
 			shared_libs: [ ],
 		},
@@ -3679,11 +3679,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
@@ -3700,11 +3700,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3721,11 +3721,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
@@ -3742,11 +3742,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_MT_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_MT_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3763,11 +3763,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_MT_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_MT_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -3784,11 +3784,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
@@ -3805,11 +3805,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Portrait_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Portrait_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3826,11 +3826,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Preview_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Preview_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -3847,11 +3847,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Resolution.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Resolution.so"],
 			shared_libs: [ ],
 		},
@@ -3868,11 +3868,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Resolution_zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Resolution_zoom.so"],
 			shared_libs: [ ],
 		},
@@ -3889,11 +3889,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -3910,11 +3910,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
@@ -3931,11 +3931,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -3952,11 +3952,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_SuperFlashLight_Screen.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_SuperFlashLight_Screen.so"],
 			shared_libs: [ ],
 		},
@@ -3973,11 +3973,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_SuperFlashLight_ScreenTorch.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_SuperFlashLight_ScreenTorch.so"],
 			shared_libs: [ ],
 		},
@@ -3994,11 +3994,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_SuperFlashLight_Torch.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_SuperFlashLight_Torch.so"],
 			shared_libs: [ ],
 		},
@@ -4015,11 +4015,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_SuperNight.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_SuperNight.so"],
 			shared_libs: [ ],
 		},
@@ -4036,11 +4036,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_1080.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_1080.so"],
 			shared_libs: [ ],
 		},
@@ -4057,11 +4057,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_1080_60fps.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_1080_60fps.so"],
 			shared_libs: [ ],
 		},
@@ -4078,11 +4078,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_1080_60fps_Zoo1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_1080_60fps_Zoo1.so"],
 			shared_libs: [ ],
 		},
@@ -4099,11 +4099,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_1080_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_1080_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -4120,11 +4120,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_2k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_2k.so"],
 			shared_libs: [ ],
 		},
@@ -4141,11 +4141,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_2k_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_2k_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -4162,11 +4162,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
@@ -4183,11 +4183,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_720_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_720_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -4204,11 +4204,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_EIS_1080.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_EIS_1080.so"],
 			shared_libs: [ ],
 		},
@@ -4225,11 +4225,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbrohi1634qmipiraw_Video_EIS_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbrohi1634qmipiraw_Video_EIS_720.so"],
 			shared_libs: [ ],
 		},
@@ -4246,11 +4246,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Capture_Zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Capture_Zoom.so"],
 			shared_libs: [ ],
 		},
@@ -4267,11 +4267,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -4288,11 +4288,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Capture_Zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Capture_Zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -4309,11 +4309,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_EIS_Video.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_EIS_Video.so"],
 			shared_libs: [ ],
 		},
@@ -4330,11 +4330,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_EIS_Video_Zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_EIS_Video_Zoom.so"],
 			shared_libs: [ ],
 		},
@@ -4351,11 +4351,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_FaceBeauty_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_FaceBeauty_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4372,11 +4372,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Face_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Face_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4393,11 +4393,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
@@ -4414,11 +4414,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4435,11 +4435,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
@@ -4456,11 +4456,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_LLHDR_0EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_LLHDR_0EV.so"],
 			shared_libs: [ ],
 		},
@@ -4477,11 +4477,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
@@ -4498,11 +4498,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Normal_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Normal_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4519,11 +4519,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Normal_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Normal_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -4540,11 +4540,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Remosaic_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Remosaic_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4561,11 +4561,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Remosaic_MFNR_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Remosaic_MFNR_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4582,11 +4582,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Resolution_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Resolution_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4603,11 +4603,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Resolution_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Resolution_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -4624,11 +4624,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Resolution_zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Resolution_zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -4645,11 +4645,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Resolution_zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Resolution_zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -4666,11 +4666,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4687,11 +4687,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
@@ -4708,11 +4708,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -4729,11 +4729,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Scene_Preview_4k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Scene_Preview_4k.so"],
 			shared_libs: [ ],
 		},
@@ -4750,11 +4750,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Scene_Preview_zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Scene_Preview_zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -4771,11 +4771,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Scene_Preview_zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Scene_Preview_zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -4792,11 +4792,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Scene_Preview_zoom3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Scene_Preview_zoom3.so"],
 			shared_libs: [ ],
 		},
@@ -4813,11 +4813,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_SlimVideo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_SlimVideo.so"],
 			shared_libs: [ ],
 		},
@@ -4834,11 +4834,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_SlimVideo_Zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_SlimVideo_Zoom.so"],
 			shared_libs: [ ],
 		},
@@ -4855,11 +4855,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_SuperFlash.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_SuperFlash.so"],
 			shared_libs: [ ],
 		},
@@ -4876,11 +4876,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Supernight_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Supernight_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -4897,11 +4897,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Torch_Flash.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Torch_Flash.so"],
 			shared_libs: [ ],
 		},
@@ -4918,11 +4918,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_1080_30.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_1080_30.so"],
 			shared_libs: [ ],
 		},
@@ -4939,11 +4939,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_1080_30_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_1080_30_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -4960,11 +4960,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_1080_30_Zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_1080_30_Zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -4981,11 +4981,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_1080_30_Zoom3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_1080_30_Zoom3.so"],
 			shared_libs: [ ],
 		},
@@ -5002,11 +5002,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_1080_60.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_1080_60.so"],
 			shared_libs: [ ],
 		},
@@ -5023,11 +5023,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_1080_60_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_1080_60_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -5044,11 +5044,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_1080_60_Zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_1080_60_Zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -5065,11 +5065,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_1080_60_Zoom3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_1080_60_Zoom3.so"],
 			shared_libs: [ ],
 		},
@@ -5086,11 +5086,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_4k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_4k.so"],
 			shared_libs: [ ],
 		},
@@ -5107,11 +5107,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pbros5kjn1mipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_pbros5kjn1mipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
@@ -5128,11 +5128,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Capture_Zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Capture_Zoom.so"],
 			shared_libs: [ ],
 		},
@@ -5149,11 +5149,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Capture_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -5170,11 +5170,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Capture_Zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Capture_Zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -5191,11 +5191,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_EIS_Video.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_EIS_Video.so"],
 			shared_libs: [ ],
 		},
@@ -5212,11 +5212,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_EIS_Video_Zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_EIS_Video_Zoom.so"],
 			shared_libs: [ ],
 		},
@@ -5233,11 +5233,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_FaceBeauty_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_FaceBeauty_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5254,11 +5254,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Face_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Face_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5275,11 +5275,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_FilmVideo.so"],
 			shared_libs: [ ],
 		},
@@ -5296,11 +5296,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Flash_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5317,11 +5317,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_HDR_MINUS_EV.so"],
 			shared_libs: [ ],
 		},
@@ -5338,11 +5338,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_LLHDR_0EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_LLHDR_0EV.so"],
 			shared_libs: [ ],
 		},
@@ -5359,11 +5359,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_NHDR_0EV.so"],
 			shared_libs: [ ],
 		},
@@ -5380,11 +5380,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Normal_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Normal_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5401,11 +5401,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Normal_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Normal_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -5422,11 +5422,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Remosaic_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Remosaic_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5443,11 +5443,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Remosaic_MFNR_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Remosaic_MFNR_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5464,11 +5464,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Resolution_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Resolution_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5485,11 +5485,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Resolution_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Resolution_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -5506,11 +5506,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Resolution_zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Resolution_zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -5527,11 +5527,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Resolution_zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Resolution_zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -5548,11 +5548,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Scene_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5569,11 +5569,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Scene_Capture_4cell.so"],
 			shared_libs: [ ],
 		},
@@ -5590,11 +5590,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Scene_Preview.so"],
 			shared_libs: [ ],
 		},
@@ -5611,11 +5611,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Scene_Preview_4k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Scene_Preview_4k.so"],
 			shared_libs: [ ],
 		},
@@ -5632,11 +5632,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Scene_Preview_zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Scene_Preview_zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -5653,11 +5653,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Scene_Preview_zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Scene_Preview_zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -5674,11 +5674,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Scene_Preview_zoom3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Scene_Preview_zoom3.so"],
 			shared_libs: [ ],
 		},
@@ -5695,11 +5695,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_SlimVideo.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_SlimVideo.so"],
 			shared_libs: [ ],
 		},
@@ -5716,11 +5716,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_SlimVideo_Zoom.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_SlimVideo_Zoom.so"],
 			shared_libs: [ ],
 		},
@@ -5737,11 +5737,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_SuperFlash.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_SuperFlash.so"],
 			shared_libs: [ ],
 		},
@@ -5758,11 +5758,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Supernight_Capture.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Supernight_Capture.so"],
 			shared_libs: [ ],
 		},
@@ -5779,11 +5779,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Torch_Flash.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Torch_Flash.so"],
 			shared_libs: [ ],
 		},
@@ -5800,11 +5800,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_1080_30.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_1080_30.so"],
 			shared_libs: [ ],
 		},
@@ -5821,11 +5821,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_1080_30_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_1080_30_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -5842,11 +5842,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_1080_30_Zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_1080_30_Zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -5863,11 +5863,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_1080_30_Zoom3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_1080_30_Zoom3.so"],
 			shared_libs: [ ],
 		},
@@ -5884,11 +5884,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_1080_60.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_1080_60.so"],
 			shared_libs: [ ],
 		},
@@ -5905,11 +5905,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_1080_60_Zoom1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_1080_60_Zoom1.so"],
 			shared_libs: [ ],
 		},
@@ -5926,11 +5926,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_1080_60_Zoom2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_1080_60_Zoom2.so"],
 			shared_libs: [ ],
 		},
@@ -5947,11 +5947,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_1080_60_Zoom3.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_1080_60_Zoom3.so"],
 			shared_libs: [ ],
 		},
@@ -5968,11 +5968,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_4k.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_4k.so"],
 			shared_libs: [ ],
 		},
@@ -5989,11 +5989,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_s5kjn1mipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libCamera_s5kjn1mipiraw_Video_720.so"],
 			shared_libs: [ ],
 		},
@@ -6010,11 +6010,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libDefaultFpsActor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libDefaultFpsActor.so"],
 			shared_libs: [ ],
 		},
@@ -6031,11 +6031,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libFrameRecord.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libFrameRecord.so"],
 			shared_libs: [ ],
 		},
@@ -6052,11 +6052,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libJpgEncPipe.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libJpgEncPipe.so"],
 			shared_libs: [ ],
 		},
@@ -6073,11 +6073,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libMcClient.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libMcClient.so"],
 			shared_libs: [ ],
 		},
@@ -6094,11 +6094,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libMtkOmxCore.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libMtkOmxCore.so"],
 			shared_libs: [ ],
 		},
@@ -6115,11 +6115,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libNoFpsActor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libNoFpsActor.so"],
 			shared_libs: [ ],
 		},
@@ -6136,11 +6136,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libOpenCL.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libOpenCL.so"],
 			shared_libs: [ ],
 		},
@@ -6157,11 +6157,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libTEECommon.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libTEECommon.so"],
 			shared_libs: [ ],
 		},
@@ -6178,11 +6178,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libTransNS.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libTransNS.so"],
 			shared_libs: [ ],
 		},
@@ -6199,11 +6199,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaal_mtk.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaal_mtk.so"],
 			shared_libs: [ ],
 		},
@@ -6220,11 +6220,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaalservice.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaalservice.so"],
 			shared_libs: [ ],
 		},
@@ -6241,11 +6241,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libadpcmdec_mtk.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libadpcmdec_mtk.so"],
 			shared_libs: [ ],
 		},
@@ -6262,11 +6262,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaedv.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaedv.so"],
 			shared_libs: [ ],
 		},
@@ -6283,11 +6283,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaiselector.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaiselector.so"],
 			shared_libs: [ ],
 		},
@@ -6304,11 +6304,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libalsautils.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libalsautils.so"],
 			shared_libs: [ ],
 		},
@@ -6325,11 +6325,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libapmonitor_vendor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libapmonitor_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -6346,11 +6346,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaudioclient_aidl_conversion.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaudioclient_aidl_conversion.so"],
 			shared_libs: [ ],
 		},
@@ -6367,11 +6367,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaudiofoundation.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaudiofoundation.so"],
 			shared_libs: [ ],
 		},
@@ -6388,11 +6388,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libaudiotoolkit_vendor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaudiotoolkit_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -6409,11 +6409,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbluetooth_audio_session.so"],
 			shared_libs: [ ],
 		},
@@ -6430,11 +6430,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbluetooth_audio_session_mediatek.so"],
 			shared_libs: [ ],
 		},
@@ -6451,11 +6451,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_hw_test.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbluetooth_hw_test.so"],
 			shared_libs: [ ],
 		},
@@ -6472,11 +6472,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_mtk.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbluetooth_mtk.so"],
 			shared_libs: [ ],
 		},
@@ -6493,11 +6493,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_mtk_pure.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbluetooth_mtk_pure.so"],
 			shared_libs: [ ],
 		},
@@ -6514,11 +6514,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_relayer.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbluetooth_relayer.so"],
 			shared_libs: [ ],
 		},
@@ -6535,11 +6535,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbluetoothem_mtk.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbluetoothem_mtk.so"],
 			shared_libs: [ ],
 		},
@@ -6556,11 +6556,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbt-vendor.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbt-vendor.so"],
 			shared_libs: [ ],
 		},
@@ -6577,11 +6577,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbwc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libbwc.so"],
 			shared_libs: [ ],
 		},
@@ -6598,11 +6598,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcam3_transerverengine.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcam3_transerverengine.so"],
 			shared_libs: [ ],
 		},
@@ -6619,11 +6619,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.1.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_hidl@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -6640,11 +6640,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_hidl@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -6661,11 +6661,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_hidl_plugin.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_hidl_plugin.so"],
 			shared_libs: [ ],
 		},
@@ -6682,11 +6682,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_mtk_c2store.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_mtk_c2store.so"],
 			shared_libs: [ ],
 		},
@@ -6703,11 +6703,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_mtk_vdec.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_mtk_vdec.so"],
 			shared_libs: [ ],
 		},
@@ -6724,11 +6724,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_mtk_venc.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_mtk_venc.so"],
 			shared_libs: [ ],
 		},
@@ -6745,11 +6745,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_soft_common.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_soft_common.so"],
 			shared_libs: [ ],
 		},
@@ -6766,11 +6766,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_vpp_qt_plugin.so"],
 			shared_libs: [ ],
 		},
@@ -6787,11 +6787,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_vpp_rs_plugin.so"],
 			shared_libs: [ ],
 		},
@@ -6808,11 +6808,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libconnfem.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libconnfem.so"],
 			shared_libs: [ ],
 		},
@@ -6829,11 +6829,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libcustom_nvram.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcustom_nvram.so"],
 			shared_libs: [ ],
 		},
@@ -6850,11 +6850,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdpframework.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdpframework.so"],
 			shared_libs: [ ],
 		},
@@ -6871,11 +6871,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdts-eagle-shared.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdts-eagle-shared.so"],
 			shared_libs: [ ],
 		},
@@ -6892,11 +6892,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdtsdsec.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdtsdsec.so"],
 			shared_libs: [ ],
 		},
