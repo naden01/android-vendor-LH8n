@@ -2839,7 +2839,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		:android_arm {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libCamera_pblchi1634qmipiraw_Video_1080_60fps_Zoo1.so"],
 			shared_libs: [ ],
 		},
