@@ -47,25 +47,6 @@ cc_prebuilt_library_shared {
 	prefer: true,
 }
 
-cc_prebuilt_library_shared {
-	name: "libstagefright_bufferpool@2.0.1",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary//lib/libstagefright_bufferpool@2.0.1.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary//lib64/libstagefright_bufferpool@2.0.1.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-}
 
 cc_prebuilt_library_shared {
 	name: "libstagefright_codecbase",
@@ -6277,27 +6258,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaiselector",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaiselector.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaiselector.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libalsautils",
 	owner: "tecno",
 	strip: {
@@ -6844,27 +6804,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdpframework",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libdpframework.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libdpframework.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libdts-eagle-shared",
 	owner: "tecno",
 	strip: {
@@ -7360,27 +7299,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmp3dec_mtk.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmtk_drvb",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmtk_drvb.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmtk_drvb.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -8715,69 +8633,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.6.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.mtkpower@1.0",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.mtkpower@1.1",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.mtkpower@1.2",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -13969,23 +13824,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.mtkradioex@3.0",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.transsion.hardware.wifi.hostapd@1.0",
 	owner: "tecno",
 	strip: {
@@ -14327,90 +14165,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.pq@2.0",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.0.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.0.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.pq@2.1",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.1.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.1.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.pq@2.2",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.2.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.2.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.pq@2.3",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.3.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.3.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.mediatek.hardware.videotelephony-V1-ndk",
 	owner: "tecno",
 	strip: {
@@ -14423,27 +14177,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.videotelephony@1.0",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -14699,23 +14432,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.composer_ext@1.0",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.composer_ext@1.0.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -15488,4 +15204,3 @@ install_symlink {
 	installed_location: "lib64/libdpframework.so",
 	symlink_target: "/vendor/lib64/mt6833/libdpframework.so",
 }
-
