@@ -6657,27 +6657,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcodec2_soft_common",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcodec2_soft_common.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcodec2_soft_common.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libcodec2_vpp_qt_plugin",
 	owner: "tecno",
 	strip: {
