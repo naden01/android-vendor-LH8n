@@ -7791,27 +7791,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libshmemcompat",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libshmemcompat.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libshmemcompat.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libsl_fp_impl",
 	owner: "tecno",
 	strip: {
