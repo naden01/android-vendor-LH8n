@@ -8982,7 +8982,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm{
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.13.so"],
 			shared_libs: [ ],
 		},
