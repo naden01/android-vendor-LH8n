@@ -8097,7 +8097,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/mt6833/libmtk_drvb.so"],
 			shared_libs: [ ],
 		},
@@ -8333,7 +8333,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -8354,7 +8354,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8501,7 +8501,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		android_arm:{
 			srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so"],
 			shared_libs: [ ],
 		},
