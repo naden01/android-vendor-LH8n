@@ -11935,7 +11935,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64 {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdip_postproc.so"],
 			shared_libs: [ ],
 		},
