@@ -21,113 +21,11 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary//lib64/libmedia_codeclist.so"],
 			shared_libs: [ ],
-		},
+                },
 	},
 	compile_multilib: "both",
 	prefer: true,
-}
 
-cc_prebuilt_library_shared {
-	name: "libstagefright_bufferpool@2.0.1",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-
-cc_prebuilt_library_shared {
-	name: "libstagefright_aidl_bufferpool2",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary//lib/libstagefright_aidl_bufferpool2.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary//lib64/libstagefright_aidl_bufferpool2.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-}
-
-
-cc_prebuilt_library_shared {
-	name: "libstagefright_codecbase",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary//lib/libstagefright_codecbase.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary//lib64/libstagefright_codecbase.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libstagefright_framecapture_utils",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary//lib/libstagefright_framecapture_utils.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary//lib64/libstagefright_framecapture_utils.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libstagefright_surface_utils",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary//lib/libstagefright_surface_utils.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary//lib64/libstagefright_surface_utils.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
 }
 
 cc_prebuilt_library_shared {
@@ -244,27 +142,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/audio_common-aidl-cpp.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "audioclient-types-aidl-cpp",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/audioclient-types-aidl-cpp.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/audioclient-types-aidl-cpp.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -401,27 +278,6 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	relative_install_path: "egl",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "framework-permission-aidl-cpp",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/framework-permission-aidl-cpp.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/framework-permission-aidl-cpp.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
 }
@@ -5359,27 +5215,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtkperf_client",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/libmtkperf_client.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/libmtkperf_client.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libsf_cpupolicy",
 	owner: "tecno",
 	strip: {
@@ -5476,69 +5311,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.mtkpower@1.0",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.mtkpower@1.1",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.mtkpower@1.2",
-	owner: "tecno",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.2.so"],
-			shared_libs: [ ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so"],
 			shared_libs: [ ],
 		},
 	},
@@ -5920,15 +5692,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.biometrics.fingerprint@2.1-service.xml",
-	owner: "tecno",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "android.hardware.cas@1.2-service-lazy.xml",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml",
@@ -6050,24 +5813,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "android.hardware.biometrics.face@1.0-service.example",
-	owner: "tecno",
-	src: "proprietary/vendor/bin/hw/android.hardware.biometrics.face@1.0-service.example",
-	filename: "android.hardware.biometrics.face@1.0-service.example",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.biometrics.fingerprint@2.1-service",
-	owner: "tecno",
-	src: "proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service",
-	filename: "android.hardware.biometrics.fingerprint@2.1-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "android.hardware.bluetooth@1.1-service-mediatek",
 	owner: "tecno",
 	src: "proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek",
@@ -6117,15 +5862,6 @@ sh_binary {
 	owner: "tecno",
 	src: "proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek",
 	filename: "android.hardware.graphics.allocator@4.0-service-mediatek",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.graphics.composer@2.1-service",
-	owner: "tecno",
-	src: "proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service",
-	filename: "android.hardware.graphics.composer@2.1-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }
