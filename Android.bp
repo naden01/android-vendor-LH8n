@@ -5796,14 +5796,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "hostapd_cli",
-	owner: "tecno",
-	src: "proprietary/vendor/bin/hostapd_cli",
-	filename: "hostapd_cli",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "android.hardware.audio.service.mediatek",
 	owner: "tecno",
 	src: "proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek",
@@ -5975,28 +5967,10 @@ sh_binary {
 }
 
 sh_binary {
-	name: "android.hardware.vibrator-service.mediatek",
-	owner: "tecno",
-	src: "proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek",
-	filename: "android.hardware.vibrator-service.mediatek",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "android.hardware.wifi@1.0-service-lazy",
 	owner: "tecno",
 	src: "proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy",
 	filename: "android.hardware.wifi@1.0-service-lazy",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "hostapd",
-	owner: "tecno",
-	src: "proprietary/vendor/bin/hw/hostapd",
-	filename: "hostapd",
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -6074,15 +6048,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "wpa_supplicant",
-	owner: "tecno",
-	src: "proprietary/vendor/bin/hw/wpa_supplicant",
-	filename: "wpa_supplicant",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "ipsec_mon",
 	owner: "tecno",
 	src: "proprietary/vendor/bin/ipsec_mon",
@@ -6151,14 +6116,6 @@ sh_binary {
 	owner: "tecno",
 	src: "proprietary/vendor/bin/wlan_assistant",
 	filename: "wlan_assistant",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "wpa_cli",
-	owner: "tecno",
-	src: "proprietary/vendor/bin/wpa_cli",
-	filename: "wpa_cli",
 	soc_specific: true,
 }
 
