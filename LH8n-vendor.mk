@@ -514,7 +514,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LH8n/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg
 
 PRODUCT_PACKAGES += \
-    mediatek-carrier-config-manager
+    mediatek-carrier-config-manager \
     ImsService \
     mediatek-common \
     mediatek-framework \
